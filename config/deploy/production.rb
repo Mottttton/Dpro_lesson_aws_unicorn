@@ -50,10 +50,10 @@
 # The server-based syntax can be used to override options:
 # ------------------------------------
 server "54.178.102.170",
-  user: "user_name",
+  user: "ec2-user",
   roles: %w{web db app},
   ssh_options: {
-    user: "user_name",
+    user: "ec2-user",
     keys: %w(~/workspace/aws/dic_sample.pem),
     forward_agent: false,
     auth_methods: %w(publickey password)
