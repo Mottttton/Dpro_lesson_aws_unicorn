@@ -4,7 +4,7 @@ lock "~> 3.18.1"
 set :application, "task_app"
 set :repo_url, "https://github.com/Mottttton/Dpro_lesson_aws_unicorn.git"
 set :branch, 'main'
-set :linked_file, %w{config/secrets.yml}
+set :linked_files, %w{config/secrets.yml}
 set :linked_dirs, %w{log tmp/pids tmpche tmp/sockets public/uploads}
 set :keep_relieases, 5
 set :rbenv_ruby, '3.0.1'
